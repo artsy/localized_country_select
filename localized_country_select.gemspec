@@ -15,6 +15,6 @@ Gem::Specification.new do |gem|
   gem.name          = 'localized_country_select'
   gem.require_paths = ['lib']
   gem.version       = LocalizedCountrySelect::VERSION
-  gem.add_dependency 'actionpack', '>= 3.0'
+  gem.add_dependency 'actionpack', '>= 5.2'
   gem.add_development_dependency 'rspec', '>= 2.0.0'
 end
